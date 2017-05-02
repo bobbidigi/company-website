@@ -1,0 +1,129 @@
+/*body background img cover font-amily*/
+body{
+	font-family: Arvo, serif;
+	background: url(http://freenaturestock.s3.amazonaws.com/827.jpg)no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*brand */
+#star{
+	font-size: 40px;
+	margin: 5px 0 0 2px;
+	transform: rotate(36deg);
+}
+.glyphicon{
+	color: #fff;
+	font-size: 30px;
+}
+/*naav*/
+.navbar-inverse{
+	background: rgba(0,0,0,0.5);
+}
+.nav li{
+	line-height: 1px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 17px;
+	margin-left: 35px;
+	margin-bottom: 25px;
+	padding: 10px 0px;
+}
+.nav li:hover{
+	border-bottom: 1px solid aqua;
+	padding-bottom: 9px;
+	cursor: pointer;
+}
+/*title jummbotron*/
+.jumbotron{
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	margin:0;
+	padding: 10px;
+	letter-spacing: 2.5px;
+}
+/*linit wdth of icons*/
+.img-responsive {
+    margin: 0 auto;
+}
+.container{
+	color: aliceblue;
+	max-width: 1000px;
+		text-align: center;
+/*	margin: 0px auto;*/
+}
+.container-fluid {
+	text-align: center;
+	color: aliceblue;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0px auto;
+}
+.bodyImage{
+max-width: 95%;	
+border: 10px solid rgba(0,0,0,0.5);
+}
+/*icons*/
+
+/*contact btn*/
+.contact{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom:100px;
+}
+.btn{
+	border-radius: 10px; 
+	color: aliceblue;
+background: rgb(206,184,252); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(206,184,252,1) 0%, rgba(196,169,243,1) 10%, rgba(179,144,228,1) 25%, rgba(183,144,234,1) 37%, rgba(186,144,240,1) 50%, rgba(158,107,229,1) 51%, rgba(184,163,245,1) 83%, rgba(193,189,253,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(206,184,252,1) 0%,rgba(196,169,243,1) 10%,rgba(179,144,228,1) 25%,rgba(183,144,234,1) 37%,rgba(186,144,240,1) 50%,rgba(158,107,229,1) 51%,rgba(184,163,245,1) 83%,rgba(193,189,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(206,184,252,1) 0%,rgba(196,169,243,1) 10%,rgba(179,144,228,1) 25%,rgba(183,144,234,1) 37%,rgba(186,144,240,1) 50%,rgba(158,107,229,1) 51%,rgba(184,163,245,1) 83%,rgba(193,189,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ceb8fc', endColorstr='#c1bdfd',GradientType=0 ); /* IE6-9 */
+border:none;
+	font-size: 18px;
+	padding: 10px 70px;
+	letter-spacing: 1.3; 
+}
+.btn:hover{
+color: aliceblue;
+background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=0 ); /* IE6-9 */
+transform: scale(1.06);
+}
+
+/*footer*/
+.footer{
+	padding: 10px 0px;
+	color:darkgray;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*mediaqureies for icons*/
+@media(max-width:768px){
+.container h1{
+		font-size: 25px;
+	}
+.container h2{
+		font-size: 15px;
+	}
+.glyphicon{
+	color: #fff;
+	font-size: 20px;
+}
+#star{
+	font-size: 20px;
+/*	margin: 5px 0 0 2px;*/
+	transform: rotate(36deg);
+}
+.btn{
+font-size: 15px;
+padding: 5px 20px;
+letter-spacing: 1.3; 		
+	}
+	.bodyImage{
+max-width: 97%;	
+border-top: 10px solid rgba(0,0,0,0.5);
+border-bottom: 10px solid rgba(0,0,0,0.5);
+}
+}
